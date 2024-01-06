@@ -1,0 +1,154 @@
+/* colors : #fb8e63 (orange)
+        : #f2e1d9 (pink) */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+nav {
+    /* display: flex;
+    justify-content: center; */
+    background-color: #f2e1d9;
+    padding: 20px;
+    padding-bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+  
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+}
+
+.desc {
+    background-color: #f2e1d9; 
+}
+
+button {
+    padding: 10px;
+    background-color: #fb8e63;
+    border: 0;
+    color: white;   
+}
+
+button:hover {
+    background-color: #e08865;
+    cursor: pointer;
+}
+
+.top-fig-box{
+    background-image: url(printor2.jpg);
+    height: 500px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.product-box {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.product-box img {
+    margin: auto;
+}
+
+.p1 {
+    border: 1px #f6f8fe solid;
+    margin: 40px;
+    padding-top: 10px;
+}
+
+/* .p1, .p1img, .p1txt,
+.p2, .p2img, .p2txt,
+.p3, .p3img, .p3txt {
+    display: inline-block;
+} */
+
+
+.footer {
+    background-color: #232961;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.section {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+}
+.iconss {
+    background-color: #f2e1d9;
+}
+.icon {
+    /* Replace with your own icons */
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+
+
+.click {
+    background-color: white;
+    box-shadow: 2px 7px 20px;
+    padding-left: 30px;
+    
+}
+
+.top {
+    display: flex;
+}
+.logo {
+    margin: 0;
+    padding: 0;
+    background-color: #f2e1d9;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 10px; 
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+nav li a:hover {
+    color: #fb8e63;
+}
+/* div {
+    border: 1px black solid;
+    padding: 15px;
+    margin: 10px;
+} */
