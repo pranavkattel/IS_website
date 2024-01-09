@@ -14,16 +14,17 @@
 <body>
     <div class="container">
         <div class="top">
-            <div class="logo">
+            <div style="height: 60px;" class="logo">
                 <img width="100px" src="third_generation.jpg" alt="">
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a style="color: #fb8e63;" href="#">HOME</a></li>
                     <li><a href="#">PRODUCTS</a></li>
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">REFERENCES</a></li>
                     <li><a href="#">CONTACTS</a></li>
+                    <li><a href="#">icon</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,12 +33,12 @@
             <table>
                 <tr>
                     <td width="700px"></td>
-                    <td class="texto-box " width="500px">
+                    <td class="texto-box " width="480px">
                         <div class="click">
-                            <h1>100% off</h1>
-                            <h1 style="font-size: 50px;">very besto printers</h1>
-                            <p>ksahgdcfasdknbasgdhaskdnbahsgvda daduigasgdhhasodu8gasyd ajsgdyfasudiouoasg7dyvasbipdij</p>
-                            <a href="#">See More</a>
+                            <h2 style="margin-bottom: 0;">90% off</h2>
+                            <h1 style="font-weight: 800; font-size: 50px;margin: 5px 0;">VERY BEST <br> FURNITURE</h1>
+                            <p>ksahgdcfasdknbasgdhaskdnbahsgvda daduigasgdhhasodu8gasyd <br> ajsgdyfasudiouoasg7dyvasbipdij</p>
+                            <button><a href="#">See More</a></button>
                         </div>
                     </td>
                 </tr>
@@ -45,9 +46,16 @@
         </div>
 
         <div class="product">
-            <h1 style="text-align: center;">Popular Products</h1>
-            <h5 style="text-align: center;">here are some random shits enjoyyyy</h5>
-            <div class="product-box">
+            <div class="product-top">
+                <h1 style="text-align: center;">Popular Products</h1>
+                <h5 style="text-align: center; color: #646D77;">here are some random shits enjoyyyy</h5>
+                <div style="padding-top: 40px;" class="product-type">
+                    <p id="but1" class="active" onclick="show()">Inkjet</p>
+                    <p id="but2" onclick="show1()">Inkjet</p>
+                    <p id="but3" onclick="show2()">Inkjet</p>
+                </div>
+            </div> 
+            <div id="p1" class="product-box">
                 <table width="100%">
                     <tr>
                         <td>
@@ -89,56 +97,184 @@
                     </tr>
                 </table>
             </div>
+            <div hidden id="p2" class="product-box">
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <div class="p1">
+                                <div class="p1img">
+                                    <img width="220px" src="third_generation.jpg" alt="">
+                                </div>
+                                <br>
+                                <div class="p1txt">
+                                    <a href="#">prodcutssss</a><br>
+                                    <p>73612899$</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="p1">
+                                <div class="p2img">
+                                    <img width="220px" src="third_generation.jpg" alt="">
+                                </div>
+                                <br>
+                                <div class="p2txt">
+                                    <a href="#">prodcutssss</a><br>
+                                    <p>73612899$</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="p1">
+                                <div class="p3img">
+                                    <img width="220px" src="third_generation.jpg" alt="">
+                                </div>
+                                <br>
+                                <div class="p3txt">
+                                    <a href="#">prodcutssss</a><br>
+                                    <p>73612899$</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div hidden id="p3" class="product-box">
+                <table width="100%">
+                    <tr>
+                        <td>
+                            <div class="p1">
+                                <div class="p1img">
+                                    <img width="220px" src="third_generation.jpg" alt="">
+                                </div>
+                                <br>
+                                <div class="p1txt">
+                                    <a href="#">333 productssss</a><br>
+                                    <p>73612899$</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="p1">
+                                <div class="p2img">
+                                    <img width="220px" src="third_generation.jpg" alt="">
+                                </div>
+                                <br>
+                                <div class="p2txt">
+                                    <a href="#">333 productssss</a><br>
+                                    <p>73612899$</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="p1">
+                                <div class="p3img">
+                                    <img width="220px" src="third_generation.jpg" alt="">
+                                </div>
+                                <br>
+                                <div class="p3txt">
+                                    <a href="#">333 productssss</a><br>
+                                    <p>73612899$</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
         <div class="us">
-            <table>
-                <tr>
-                    <td width="700px">
-                        <img src="third_generation.jpg" alt="">
-                    </td>
-                    <td class="desc">
-                        <h2>we are fking best pronting</h2>
+                <div class="us-col">
+                    <img height="100%" width="100%" src="printor.jpg" alt="">
+                </div>
+                <div class="us-col1">
+                    <h2>we are fking best pronting</h2>
                         <p>djhgafcsdgapskdlla sfyadghjak;' 'd;kjhggcfgguhjkisdcavjdvasdhhjasodihvgasda[psdlkjasbdkasbdjkasldkasld;]</p>
                         we are the fking best <br> just fking buy already <br> okeyyyyh <br>
-                    </td>
-                </tr>
-            </table>
+                        <button style="margin-top: 30px;">learn more</button>
+                </div>
+                
+        </div>
+
+        <div class="you-may-like">
+            <h2>PRODUCTS YOU MAY LIKE</h2>
+            <p>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+            <div class="like-row">
+                <div class="like-col">
+                    <img src="printor.jpg" alt="Chair 1">
+                    <h3>Bly Microfiber / Microsuede 56" Armless Loveseat</h3>
+                    <p style="color: rgb(107, 14, 14); font-weight: 500;">$367</p>
+                </div>
+                <div class="like-col">
+                    <img src="printor.jpg" alt="Chair 1">
+                    <h3>Bly Microfiber / Microsuede 56" Armless Loveseat</h3>
+                    <p style="color: rgb(107, 14, 14); font-weight: 500;">$367</p>
+                </div>
+                <div class="like-col">  
+                    <img src="printor.jpg" alt="Chair 1">
+                    <h3>Bly Microfiber / Microsuede 56" Armless Loveseat</h3>
+                    <p style="color: rgb(107, 14, 14); font-weight: 500;">$367</p>
+                </div>
+            </div>
+            <button>DISCOVER MORE</button>
         </div>
 
         <div class="iconss">
             <div class="section">
-                <div class="icon"></div>
+                <img src="printor.jpg" width="60px" alt="">
                 <h2>Fast & Free Delivery</h2>
                 <p>Free delivery on all orders</p>
             </div>
             <div class="section">
-                <div class="icon"></div>
+                <img src="printor.jpg" width="60px" alt="">
                 <h2>Secure Payment</h2>
                 <p>Free delivery on all orders</p>
             </div>
             <div class="section">
-                <div class="icon"></div>
-                <h2>Money Back Guarantee</h2>
+                <img src="printor.jpg" width="60px" alt="">
+                <h2>Money Back </h2>
                 <p>Free delivery on all orders</p>
             </div>
             <div class="section">
-                <div class="icon"></div>
+                <img src="printor.jpg" width="60px" alt="">
                 <h2>Online Support</h2>
                 <p>Free delivery on all orders</p>
             </div>
         </div>
-
         <div class="footer">
-            <p>&copy; 2024 Your Website Name. All rights reserved. | Designed by <a href="#" target="_blank">Your Name</a></p>
-            <div class="social-icons">
-                <a href="#" target="_blank">Facebook</a>
-                <a href="#" target="_blank">Twitter</a>
-                <a href="#" target="_blank">Instagram</a>
-                <!-- Add more social media icons and links as needed -->
+            <div class="fot-row">
+                <div class="fot-col1">
+                    <img width="50px" src="printor.jpg" alt=""><br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt debitis in id accusantium hic minus eos rerum! Ad odio dolore veritatis tempore minima repellat eos id esse qui autem? Doloremque?<br>
+                    <br><br><br>
+                    <a href="">icon</a>
+                    <a href="">icon</a>
+                    <a href="">icon</a>
+                </div>
+                <div class="fot-col">
+                    <h2>quick</h2><br>
+                    <a href="">smth</a><br>
+                    <a href="">smth</a><br>
+                    <a href="">smth</a>
+                </div>
+                <div class="fot-col">
+                    <h2>category</h2><br>
+                    <a href="">okey</a><br>
+                    <a href="">okey</a><br>
+                    <a href="">okey</a><br>
+                </div>
+                <div class="fot-col">
+                    <h2>partner</h2><br>
+                    <a href="">dem</a><br>
+                    <a href="">dem</a><br>
+                    <a href="">dem</a><br>
+                </div>
             </div>
+            <p style="text-align: center;padding-top: 20px;">&copy; 2024 Your Website Name. All rights reserved. | Designed by <a href="#" target="_blank">Your Name</a></p>
         </div>
     </div>
+
+    <script src="home.js"></script>
 </body>
 
 </html>
